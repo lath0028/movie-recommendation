@@ -12,7 +12,7 @@
                         },
                         addHandlers: function () {
                             //add the click listener
-                            let btn = document.getElementB``yId('search-button');
+                            let btn = document.getElementById('search-button');
                             let back = document.getElementById('back-button');
                             btn.addEventListener('click', app.runSearch);
                             back.addEventListener('click', app.goToBack);

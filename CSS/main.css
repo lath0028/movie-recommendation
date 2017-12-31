@@ -67,7 +67,7 @@ html{
     right: 0;
     z-index:110;
     height:3rem;
-    width: 80%; 
+    width: 95%; 
     padding-left:1rem;
     font-size:1.8rem;
 }
@@ -76,9 +76,9 @@ html{
     top: 0;
 /*    z-index: 120;*/
     left: 0;
-    width: 20%;
+    width: 5%;
     height: 3rem;
-    background-color: red;
+    background-color: darkgrey;
     cursor: pointer;
 }
 
@@ -119,7 +119,7 @@ movie-desc{
 }
 
 .attribution img{
-    width:80%;
+    width:25%;
 /*
     animation-name: spin;
     animation-iteration-count:infinite;
