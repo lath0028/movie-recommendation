@@ -12,7 +12,7 @@
                         },
                         addHandlers: function () {
                             //add the click listener
-                            let btn = document.getElementById('search-button');
+                            let btn = document.getElementB``yId('search-button');
                             let back = document.getElementById('back-button');
                             btn.addEventListener('click', app.runSearch);
                             back.addEventListener('click', app.goToBack);
@@ -71,15 +71,18 @@
                             movies.results.forEach(function (movie) {
                                 let div = document.createElement('div');
                                 div.classList.add('movie');
+                                
                                   div.setAttribute('id', movie.id);
                                 let img = document.createElement('img');
                                 img.setAttribute('src',app.imgURL+movie.poster_path);
                                 div.appendChild(img);
                                 img.classList.add('poster');
+                                
                                 let h2 = document.createElement('h2');
                                 h2.textContent=movie.title;
                                 h2.classList.add('movie-title');
                                 div.appendChild(h2);
+                                
                                     let p = document.createElement('p');
                                 p.textContent=movie.overview;
                                 p.classList.add('movie-desc');
