@@ -5,7 +5,7 @@
 
 
                         URL: 'https://api.themoviedb.org./3/',
-                        imgURL: 'http://image.tmdb.org/t/p/w500',
+                        imgURL: 'https://image.tmdb.org/t/p/w500',
                         init: function () {
                             //focus on the text field 
                             let input = document.getElementById('search-input');
