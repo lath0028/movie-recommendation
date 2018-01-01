@@ -4,7 +4,7 @@
                         
 
 
-                        URL: 'http://api.themoviedb.org./3/',
+                        URL: 'https://api.themoviedb.org./3/',
                         imgURL: 'http://image.tmdb.org/t/p/w500',
                         init: function () {
                             //focus on the text field 
